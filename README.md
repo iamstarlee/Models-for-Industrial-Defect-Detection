@@ -13,16 +13,16 @@ Quantitative results of 5 super-resolution methods on MVTecAD
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
 |1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |    |2023|
-|2| GLASS     [[论文]](https://arxiv.org/pdf/2407.09359v1) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) |  |2024|
-|3| UniNet  [[论文]](https://pangdatangtt.github.io/static/pdfs/UniNet__arXix_.pdf) [[代码]](https://github.com/pangdatangtt/UniNet)  |    |2025|
-|4| HETMM   [[论文]](https://arxiv.org/pdf/2303.16191v5) [[代码]](https://github.com/NarcissusEx/HETMM) |    |2023|
-|5| INP-Fomer ViT-L [[论文]](https://arxiv.org/pdf/2503.02424v1) [[代码]](https://github.com/luow23/inp-former) |    |2025|
+|2| GLASS     [[论文]](https://arxiv.org/pdf/2407.09359v1) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) | 76.1% |2024|
+|3| UniNet  [[论文]](https://pangdatangtt.github.io/static/pdfs/UniNet__arXix_.pdf) [[代码]](https://github.com/pangdatangtt/UniNet)  |  78.9%  |2025|
+|4| HETMM   [[论文]](https://arxiv.org/pdf/2303.16191v5) [[代码]](https://github.com/NarcissusEx/HETMM) |  82.1%  |2023|
+|5| INP-Fomer ViT-L [[论文]](https://arxiv.org/pdf/2503.02424v1) [[代码]](https://github.com/luow23/inp-former) |  68.5%  |2025|
 
 Quantitative results of 5 defect classification methods on MVTecAD
-|| Models       | AUROC       |
-|--|----------|-----------|
-|1| AnoGAN   | 行6内容   |
-|2| VAE      | 行7内容   |
-|3| AE-SSIM  | 行8内容   |
-|4| FNF      | 行9内容   |
-|5| DR/EM    | 行10内容  |
+|| Models       | mean AUROC       |Year|
+|--|----------|-----------|--|
+|1| DDAD [[论文]](https://arxiv.org/pdf/2305.15956v2) [[代码]](https://github.com/arimousa/DDAD)  |    | 2023|
+|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | 62.1%   | 2023|
+|3| Dinomaly ViT-L [[论文]](https://arxiv.org/pdf/2405.14325v4) [[代码]](https://github.com/guojiajeremy/dinomaly)   | 70.2%   | 2024|
+|4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 54.9%   | 2023|
+|5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 57.6% | 2023|
