@@ -10,19 +10,19 @@ We use the common metric: AUROC (the area under the receiver operating character
 
 ## 3. Experiment
 Quantitative results of 5 super-resolution methods on MVTecAD
-| Models       | mean AUROC       |
-|----------|-----------|
-| PyramidFlow [[1]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf)  |    |
-| S-T      |    |
-| SPADE    |    |
-| PaDiM    |    |
-| CS-Flow  |    |
+|| Models       | mean AUROC       |
+|--|----------|-----------|
+|1| PyramidFlow [[1]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf)  |    |
+|2| S-T      |    |
+|3| SPADE    |    |
+|4| PaDiM    |    |
+|5| CS-Flow  |    |
 
 Quantitative results of 5 defect classification methods on MVTecAD
-| Models       | AUROC       |
-|----------|-----------|
-| AnoGAN   | 行6内容   |
-| VAE      | 行7内容   |
-| AE-SSIM  | 行8内容   |
-| FNF      | 行9内容   |
-| DR/EM    | 行10内容  |
+|| Models       | AUROC       |
+|--|----------|-----------|
+|1| AnoGAN   | 行6内容   |
+|2| VAE      | 行7内容   |
+|3| AE-SSIM  | 行8内容   |
+|4| FNF      | 行9内容   |
+|5| DR/EM    | 行10内容  |
