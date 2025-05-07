@@ -9,7 +9,7 @@ This repo includes 5 ordinary models and 5 super-resolution models for classifyi
 We use the common metric: AUROC (the area under the receiver operating characteristic curve).
 
 ## 3. Experiment
-Quantitative results of 10 challenging methods on MVTecAD
+Quantitative results of 5 super-resolution methods on MVTecAD
 | Models       | mean AUROC       |
 |----------|-----------|
 | PyramidFlow [[1]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf)  |    |
@@ -18,6 +18,7 @@ Quantitative results of 10 challenging methods on MVTecAD
 | PaDiM    |    |
 | CS-Flow  |    |
 
+Quantitative results of 5 defect classification methods on MVTecAD
 | Models       | AUROC       |
 |----------|-----------|
 | AnoGAN   | 行6内容   |
