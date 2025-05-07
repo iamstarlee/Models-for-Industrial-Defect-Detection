@@ -1,7 +1,7 @@
 This repo includes 5 ordinary models and 5 super-resolution models for classifying super-resolution dataset after downscaling.
 | Models       | AUROC       |
 |----------|-----------|
-| PyramidFlow [[1]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf)  | 行1内容   |
+| PyramidFlow [[1]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf)  | 99.35%   |
 | 行2内容  | 行2内容   |
 | 行3内容  | 行3内容   |
 | 行4内容  | 行4内容   |
