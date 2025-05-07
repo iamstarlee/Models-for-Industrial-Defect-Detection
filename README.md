@@ -10,13 +10,13 @@ We use the common metric: AUROC (the area under the receiver operating character
 
 ## 3. Experiment
 Quantitative results of 5 super-resolution methods on MVTecAD
-|| Models       | mean AUROC       |
-|--|----------|-----------|
-|1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |    |
-|2| S-T      |    |
-|3| SPADE    |    |
-|4| PaDiM    |    |
-|5| CS-Flow  |    |
+|| Models       | mean AUROC       |Year|
+|--|----------|-----------|--|
+|1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |    |2023|
+|2| GLASS      |    |2024|
+|3| UniNet    |    |2025|
+|4| HETMM    |    |2023|
+|5| INP-Fomer ViT-L  |    |2025|
 
 Quantitative results of 5 defect classification methods on MVTecAD
 || Models       | AUROC       |
