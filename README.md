@@ -13,10 +13,10 @@ Quantitative results of 5 super-resolution methods on MVTecAD
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
 |1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |    |2023|
-|2| GLASS     [[论文]](https://link.springer.com/chapter/10.1007/978-3-031-72855-6_3) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) |  |2024|
+|2| GLASS     [[论文]](https://arxiv.org/pdf/2407.09359v1) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) |  |2024|
 |3| UniNet  [[论文]](https://pangdatangtt.github.io/static/pdfs/UniNet__arXix_.pdf) [[代码]](https://github.com/pangdatangtt/UniNet)  |    |2025|
-|4| HETMM    |    |2023|
-|5| INP-Fomer ViT-L  |    |2025|
+|4| HETMM   [[论文]](https://arxiv.org/pdf/2303.16191v5) [[代码]](https://github.com/NarcissusEx/HETMM) |    |2023|
+|5| INP-Fomer ViT-L [[论文]](https://arxiv.org/pdf/2503.02424v1) [[代码]](https://github.com/luow23/inp-former) |    |2025|
 
 Quantitative results of 5 defect classification methods on MVTecAD
 || Models       | AUROC       |
