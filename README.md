@@ -22,7 +22,7 @@ Quantitative results of 5 defect classification methods on MVTecAD, scale = 0.5
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
 |1| DDAD [[论文]](https://arxiv.org/pdf/2305.15956v2) [[代码]](https://github.com/arimousa/DDAD)  |  91.12  | 2023|
-|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | %   | 2023|
+|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | 99.9%   | 2023|
 |3| Dinomaly ViT-L [[论文]](https://arxiv.org/pdf/2405.14325v4) [[代码]](https://github.com/guojiajeremy/dinomaly)   | 90.2%   | 2024|
 |4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 94.9%   | 2023|
 |5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 97.6% | 2023|
@@ -32,7 +32,12 @@ Expected results of GLASS in half resolution of MVTec AD, scale = 0.5:
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Detection | 99.76% | 99.88% | 98.99% | 99.65% | 100% | 100% | 99.43% | 99.49% | 98.78% | 100% | 100% | 99.98% | 100% | 99.88% | 99.95% | 99.80% 
 
-Expected results of DDAD in half resolution of MVTec AD:
+Expected results of GLASS in half resolution of MVTec AD, scale = 0.25:
+| Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Detection | 99.76% | 99.88% | 98.99% | 99.65% | 100% | 100% | 99.43% | 99.49% | 98.78% | 100% | 100% | 99.98% | 100% | 99.88% | 99.95% | 99.80% 
+
+Expected results of EfficientAD in half resolution of MVTec AD:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Detection | 99.3% | 100% | 100% | 100% | 100% | 100% | 99.4% | 99.4% | 100% | 100% | 100% | 99.0% | 100% | 100% | 100% | 99.8% 
