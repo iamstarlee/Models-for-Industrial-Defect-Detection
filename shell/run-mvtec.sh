@@ -1,5 +1,5 @@
-datapath=/root/cqy/dataset/MVTec
-augpath=/root/cqy/dataset/dtd/images
+datapath=/this/is/where/MVTecAD/be
+augpath=/download/dataset/dtd/images/from/https://www.robots.ox.ac.uk/~vgg/data/dtd/
 classes=('carpet' 'grid' 'leather' 'tile' 'wood' 'bottle' 'cable' 'capsule' 'hazelnut' 'metal_nut' 'pill' 'screw' 'toothbrush' 'transistor' 'zipper')
 flags=($(for class in "${classes[@]}"; do echo '-d '"${class}"; done))
 
@@ -30,7 +30,7 @@ python main.py \
     --distribution 0 \
     --mean 0.5 \
     --std 0.1 \
-    --fg 1 \
+    --fg 0 \
     --rand_aug 1 \
     --batch_size 8 \
     --resize 288 \
