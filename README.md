@@ -36,3 +36,7 @@ Expected results of DDAD in half resolution of MVTec AD:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Detection | 99.3% | 100% | 100% | 100% | 100% | 100% | 99.4% | 99.4% | 100% | 100% | 100% | 99.0% | 100% | 100% | 100% | 99.8% 
+
+## 4. Usage
+- 首先运行`conda env create -f anomaly.yaml`，配置环境
+- 然后运行down_sample.py生成降低分辨率后的数据集
