@@ -27,10 +27,10 @@ Quantitative results of 5 defect classification methods on MVTecAD
 |4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 54.9%   | 2023|
 |5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 57.6% | 2023|
 
-Expected results of PyramidFlow in half resolution of MVTec AD:
+Expected results of GLASS in half resolution of MVTec AD, scale = 0.5:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Detection | 99.3% | 100% | 100% | 100% | 100% | 100% | 99.4% | 99.4% | 100% | 100% | 100% | 99.0% | 100% | 100% | 100% | 99.8% 
+| Detection | 99.76% | 99.88% | 98.99% | 99.65% | 100% | 100% | 99.43% | 99.49% | 98.78% | 100% | 100% | 99.98% | 100% | 99.88% | 99.95% | 99.80% 
 
 Expected results of DDAD in half resolution of MVTec AD:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
