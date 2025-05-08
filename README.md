@@ -9,23 +9,23 @@ This repo includes 5 ordinary models and 5 super-resolution models for classifyi
 We use the common metric: AUROC (the area under the receiver operating characteristic curve).
 
 ## 3. Experiment
-Quantitative results of 5 super-resolution methods on MVTecAD
+Quantitative results of 5 super-resolution methods on MVTecAD, scale = 0.5
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
-|1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |    |2023|
-|2| GLASS     [[论文]](https://arxiv.org/pdf/2407.09359v1) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) | 76.1% |2024|
-|3| UniNet  [[论文]](https://pangdatangtt.github.io/static/pdfs/UniNet__arXix_.pdf) [[代码]](https://github.com/pangdatangtt/UniNet)  |  78.9%  |2025|
-|4| HETMM   [[论文]](https://arxiv.org/pdf/2303.16191v5) [[代码]](https://github.com/NarcissusEx/HETMM) |  82.1%  |2023|
-|5| INP-Fomer ViT-L [[论文]](https://arxiv.org/pdf/2503.02424v1) [[代码]](https://github.com/luow23/inp-former) |  68.5%  |2025|
+|1| PyramidFlow [[论文]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf) [[代码]](https://github.com/gasharper/PyramidFlow) |  97.89%  |2023|
+|2| GLASS     [[论文]](https://arxiv.org/pdf/2407.09359v1) [[代码]](https://github.com/cqylunlun/glass?tab=readme-ov-file#) | **99.80%** |2024|
+|3| UniNet  [[论文]](https://pangdatangtt.github.io/static/pdfs/UniNet__arXix_.pdf) [[代码]](https://github.com/pangdatangtt/UniNet)  |  98.9%  |2025|
+|4| HETMM   [[论文]](https://arxiv.org/pdf/2303.16191v5) [[代码]](https://github.com/NarcissusEx/HETMM) |  92.1%  |2023|
+|5| INP-Fomer ViT-L [[论文]](https://arxiv.org/pdf/2503.02424v1) [[代码]](https://github.com/luow23/inp-former) |  95.5%  |2025|
 
-Quantitative results of 5 defect classification methods on MVTecAD
+Quantitative results of 5 defect classification methods on MVTecAD, scale = 0.5
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
-|1| DDAD [[论文]](https://arxiv.org/pdf/2305.15956v2) [[代码]](https://github.com/arimousa/DDAD)  |    | 2023|
-|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | 62.1%   | 2023|
-|3| Dinomaly ViT-L [[论文]](https://arxiv.org/pdf/2405.14325v4) [[代码]](https://github.com/guojiajeremy/dinomaly)   | 70.2%   | 2024|
-|4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 54.9%   | 2023|
-|5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 57.6% | 2023|
+|1| DDAD [[论文]](https://arxiv.org/pdf/2305.15956v2) [[代码]](https://github.com/arimousa/DDAD)  |  91.12  | 2023|
+|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | %   | 2023|
+|3| Dinomaly ViT-L [[论文]](https://arxiv.org/pdf/2405.14325v4) [[代码]](https://github.com/guojiajeremy/dinomaly)   | 90.2%   | 2024|
+|4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 94.9%   | 2023|
+|5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 97.6% | 2023|
 
 Expected results of GLASS in half resolution of MVTec AD, scale = 0.5:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
