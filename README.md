@@ -50,6 +50,7 @@ Expected results of EfficientAD in half resolution of MVTec AD:
 - run `python down_sample.py`, to downsample data.
 
 ### b. Reproducing models
-- run `python efficientad.py --dataset mvtec_ad --subdataset bottle --mvtec_ad_path '../anomalib/down_dataset25'` to train and infer sub-class bottle, the same is true for other classes.
-- cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
+- For training EfficientAD, run `python efficientad.py --dataset mvtec_ad --subdataset bottle --mvtec_ad_path '../anomalib/down_dataset25'` to train sub-class bottle, the same is true for other classes.
+- For evaluating EfficientAD, run `python mvtec_ad_evaluation/evaluate_experiment.py --dataset_base_dir './mvtec_anomaly_detection/' --anomaly_maps_dir './output/1/anomaly_maps/mvtec_ad/' --output_dir './output/1/metrics/mvtec_ad/' --evaluated_objects bottle`.
+- For GLASS, cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
   
