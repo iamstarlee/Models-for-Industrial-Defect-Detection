@@ -51,6 +51,8 @@ Expected results of EfficientAD in MVTec AD, scale = 0.25:
 
 ### b. Reproducing models
 - For training EfficientAD, run `python efficientad.py --dataset mvtec_ad --subdataset bottle --mvtec_ad_path '../anomalib/down_dataset25'` to train sub-class bottle, the same is true for other classes.
-- For evaluating EfficientAD, run `python mvtec_ad_evaluation/pro_curve_util.py` first, then run `python mvtec_ad_evaluation/evaluate_experiment.py --dataset_base_dir './mvtec_anomaly_detection/' --anomaly_maps_dir './output/1/anomaly_maps/mvtec_ad/' --output_dir './output/1/metrics/mvtec_ad/' --evaluated_objects bottle`.
+- For evaluating EfficientAD
+  - run `python mvtec_ad_evaluation/pro_curve_util.py` first, then
+  - run `python mvtec_ad_evaluation/evaluate_experiment.py --dataset_base_dir './mvtec_anomaly_detection/' --anomaly_maps_dir './output/1/anomaly_maps/mvtec_ad/' --output_dir './output/1/metrics/mvtec_ad/' --evaluated_objects bottle`.
 - For GLASS, cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
   
