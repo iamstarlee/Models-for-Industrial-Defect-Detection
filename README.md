@@ -43,7 +43,7 @@ Expected results of EfficientAD in half resolution of MVTec AD:
 | Detection | 99.3% | 100% | 100% | 100% | 100% | 100% | 99.4% | 99.4% | 100% | 100% | 100% | 99.0% | 100% | 100% | 100% | 99.8% 
 
 ## 4. Downsample
-![This is 1/4scale](images/000.png "Magic Gardens")
+![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0000.png)
 ## 5. Usage
 - 首先运行`conda env create -f anomaly.yaml`，配置环境
 - 然后运行down_sample.py生成降低分辨率后的数据集
