@@ -6,6 +6,35 @@ The PRO curve can also be integrated up to a constant integration limit.
 import numpy as np
 from scipy.ndimage.measurements import label
 
+from PIL import Image
+import os
+from tqdm import tqdm
+
+def resize_anomaly_maps(anomaly_map_dir, save_dir):
+    os.makedirs(save_dir, exist_ok=True)
+
+    for root, _, files in os.walk(anomaly_map_dir):
+        for file in tqdm(files):
+            if file.endswith('.tiff') or file.endswith('.tif'):
+                anomaly_map_path = os.path.join(root, file)
+
+                # 推测出对应的 ground truth mask 路径
+                # 修改下面这一行以适配你的 ground truth 结构
+                relative_path = os.path.relpath(anomaly_map_path, anomaly_map_dir)
+                
+                target_size = (900, 900)
+
+                # 读取 anomaly map 并 resize
+                amap = Image.open(anomaly_map_path)
+                amap_resized = amap.resize(target_size, resample=Image.BILINEAR)
+
+                # 保存 resized anomaly map
+                save_path = os.path.join(save_dir, relative_path)
+                os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                amap_resized.save(save_path)
+
+    print("All anomaly maps resized and saved.")
+
 
 def compute_pro(anomaly_maps, ground_truth_maps):
     """Compute the PRO curve for a set of anomaly maps with corresponding ground
@@ -157,4 +186,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    
+    anomaly_map_dir = './output/1/anomaly_maps/mvtec_ad/bottle/test/good'  # 修改为你需要上采用的路径
+    save_dir = './resized_anomaly_maps/mvtec_ad/bottle/good'
+
+    resize_anomaly_maps(anomaly_map_dir, save_dir)
+    # main()
