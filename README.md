@@ -35,7 +35,7 @@ Expected results of GLASS in half resolution of MVTec AD, scale = 0.5:
 Expected results of GLASS in half resolution of MVTec AD, scale = 0.25:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Detection | 99.76% | 99.88% | 98.99% | 99.65% | 100% | 100% | 99.43% | 99.49% | 98.78% | 100% | 100% | 99.98% | 100% | 99.88% | 99.95% | 99.80% 
+| Detection | 99.76% | 100% | 100% | 99.96% | 99.91% | 99.92% | 99.59% | 99.12% | 99.96% | 99.46% | 93.81% | 92.11% | 100% | 99.50% | 99.97% | 98.87% 
 
 Expected results of EfficientAD in half resolution of MVTec AD:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
