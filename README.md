@@ -45,5 +45,11 @@ Expected results of EfficientAD in half resolution of MVTec AD:
 ## 4. Downsample
 ![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0000x.png)![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0001x.png)![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0002x.png)
 ## 5. Usage
-- 首先运行`conda env create -f anomaly.yaml`，配置环境
-- 然后运行down_sample.py生成降低分辨率后的数据集
+### a. Generating data
+- run `conda env create -f anomaly.yaml`, to config env.
+- run `python down_sample.py`, to downsample data.
+
+### b. Reproduce EfficientAD
+- run `python efficientad.py --dataset mvtec_ad --subdataset bottle --mvtec_ad_path '../anomalib/down_dataset25'` to train and infer sub-class bottle, the same is true for other classes.
+- cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
+  
