@@ -22,7 +22,7 @@ Quantitative results of 5 defect classification methods on MVTecAD, scale = 0.5
 || Models       | mean AUROC       |Year|
 |--|----------|-----------|--|
 |1| DDAD [[论文]](https://arxiv.org/pdf/2305.15956v2) [[代码]](https://github.com/arimousa/DDAD)  |  91.12  | 2023|
-|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | 99.9%   | 2023|
+|2| EfficientAD [[论文]](https://arxiv.org/pdf/2303.14535v3) [[代码]](https://github.com/nelson1425/EfficientAD)  | **99.9%**   | 2023|
 |3| Dinomaly ViT-L [[论文]](https://arxiv.org/pdf/2405.14325v4) [[代码]](https://github.com/guojiajeremy/dinomaly)   | 90.2%   | 2024|
 |4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 94.9%   | 2023|
 |5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 97.6% | 2023|
