@@ -49,7 +49,7 @@ Expected results of EfficientAD in half resolution of MVTec AD:
 - run `conda env create -f anomaly.yaml`, to config env.
 - run `python down_sample.py`, to downsample data.
 
-### b. Reproduce EfficientAD
+### b. Reproducing models
 - run `python efficientad.py --dataset mvtec_ad --subdataset bottle --mvtec_ad_path '../anomalib/down_dataset25'` to train and infer sub-class bottle, the same is true for other classes.
 - cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
   
