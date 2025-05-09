@@ -27,20 +27,20 @@ Quantitative results of 5 defect classification methods on MVTecAD, scale = 0.5
 |4| ReConPatch Ensemble  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)    | 94.9%   | 2023|
 |5| ReConPatch WRN-50  [[论文]](https://arxiv.org/pdf/2305.16713v3) [[代码]](https://github.com/travishsu/ReConPatch-TF)  | 97.6% | 2023|
 
-Expected results of GLASS in half resolution of MVTec AD, scale = 0.5:
+Expected results of GLASS in MVTec AD, scale = 0.5:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Detection | 99.76% | 99.88% | 98.99% | 99.65% | 100% | 100% | 99.43% | 99.49% | 98.78% | 100% | 100% | 99.98% | 100% | 99.88% | 99.95% | 99.80% 
 
-Expected results of GLASS in half resolution of MVTec AD, scale = 0.25:
+Expected results of GLASS in MVTec AD, scale = 0.25:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Detection | 99.76% | 100% | 100% | 99.96% | 99.91% | 99.92% | 99.59% | 99.12% | 99.96% | 99.46% | 93.81% | 92.11% | 100% | 99.50% | 99.97% | 98.87% 
 
-Expected results of EfficientAD in half resolution of MVTec AD:
+Expected results of EfficientAD in MVTec AD, scale = 0.25:
 | Category | Carpet | Grid |  Leather | Tile | Wood | Bottle |  Cable | Capsule | Hazel nut | Metalnut | Pill | Screw | Toothbrush | Transistor | Zipper |Average
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Detection | 99.3% | 100% | 100% | 100% | 100% | 100% | 99.4% | 99.4% | 100% | 100% | 100% | 99.0% | 100% | 100% | 100% | 99.8% 
+| Detection | 98.39% | 97.12% | 99.78% | 97.89% | 99.34% | 98.01% | 97.19% | 99.40% | 99.19% | 98.12% | 100% | 99.00% | 97.45% | 98.98% | 100% | 98.66% 
 
 ## 4. Downsample
 ![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0000x.png)![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0001x.png)![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/0002x.png)
