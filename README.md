@@ -55,4 +55,9 @@ Expected results of EfficientAD in MVTec AD, scale = 0.25:
   - run `python mvtec_ad_evaluation/pro_curve_util.py` first, then
   - run `python mvtec_ad_evaluation/evaluate_experiment.py --dataset_base_dir './mvtec_anomaly_detection/' --anomaly_maps_dir './output/1/anomaly_maps/mvtec_ad/' --output_dir './output/1/metrics/mvtec_ad/' --evaluated_objects bottle`.
 - For GLASS, cd shell, and modify `run-mvtec.sh`, then run `bash run-mvtec.sh` to train/test.
-  
+
+## 5. Plotting
+Evaluate whether a whole image is classified correctly as normal or anomalous.
+![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/image_metrics_barplot.png)
+Evaluate how well the model can localize and segment anomalous regions in the image, pixel_pro measures the extent to which each true anomaly region is covered in anomaly detection. 
+![image](https://github.com/iamstarlee/Models-for-Industrial-Defect-Detection/blob/main/images/per_class_metrics_barplot.png)
